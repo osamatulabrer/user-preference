@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user preference</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <label for="selectFontSize">select font size</label>
+    <select name="selectFontSize" id="selectFontSize">
+      <script>
+        for(let i = 16;i <= 70;i +=2){
+          
+        document.write (`<option>${i + 'px'}</option>`)
+        } 
+    //   </script>
+        <!-- <option value="18px">18px</option>
+        <option value="20px">20px</option>
+        <option value="22px">22px</option>
+        <option value="24px">24px</option> -->
+    </select>
+    <label for="selectBgColor">select bg-color</label>
+    <select name="selectBgColor" id="selectBgColor">
+        <option >aqua</option>
+        <option >orange</option>
+        <option value="red">red</option>
+        <option value="#ccc">#ccc</option>
+        <option value="blue">blue</option>
+    </select>
+    <div class="div" type="submit">reset</div>
+    <div class="main">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit ad, impedit magni, a nesciunt odio blanditiis, suscipit rem aliquid sint assumenda quo? Consequuntur soluta, quasi omnis eos sit quisquam quam quae fugiat unde eum quidem vero commodi ex harum nemo voluptatum consectetur id adipisci neque libero exercitationem earum eligendi? Odit, porro hic! Delectus inventore quo consectetur? Minus cum, nostrum perferendis in provident incidunt doloribus dignissimos, eum possimus maiores sit architecto consectetur animi eos atque! Dignissimos voluptatum alias nemo </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur delectus exercitationem expedita magnam fugit tenetur unde adipisci atque eaque eligendi nulla porro numquam commodi quam voluptate neque recusandae minus vero est distinctio, maxime quasi sunt. Fugiat veniam molestias eaque aliquid itaque atque pariatur eos repellendus voluptas, aspernatur architecto laboriosam necessitatibus quod harum est optio commodi. Asperiores tenetur sapiente veritatis deleniti? Perferendis animi laboriosam sit dignissimos quasi eius quis fugiat repellat, ut culpa modi molestias et. Repellendus esse, voluptate quis!</p>
+    </div>
+
+</div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
